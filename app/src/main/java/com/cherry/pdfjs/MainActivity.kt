@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         //这个是pdf原生UI
 //        var url = "file:///android_asset/pdfjs/web/viewer.html?file=$pdfUrl"
-        //自定义UI
+        //自定义UI 体积小只有 两个文件 index.js index.html
         var url = "file:///android_asset/pdfjs/web/index.html?$pdfUrl"
         mWebView.loadUrl(url)
     }
